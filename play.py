@@ -30,7 +30,7 @@ st.write("")
 progress = st.progress(0)
 
 step = st.session_state.get('step', 0)
-image_path = './latent_space_images.png'  # 저장된 이미지 경로
+image_path = 'latent_space_images.png'
 
 if step <= 8:
     progress.progress((step + 1) / 9)
